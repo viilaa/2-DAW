@@ -51,8 +51,8 @@ if (numero2 > 0) {
     console.log("numero2(" + numero2 + ") es positivo");
 }
 
-if (numero1 < 0) {
-    console.log("numero1(" + numero1 + ") es negativo o distinto de cero");
+if ((numero1-6) < 0) {
+    console.log("numero1(" + numero1 + "-6) es negativo o distinto de cero");
 }
 
 if ((numero1+1) < numero2) {
@@ -70,3 +70,16 @@ function factorial(n) {
     return total;
 }
 console.log (factorial(3));
+
+
+
+// EJERCICIO 6.
+let n = parseInt(prompt("Introduce valor"));
+function recogeNum(valor){
+    if (valor%2==0){
+        console.log (n +" es un numero par");
+    }else{
+        console.log(n + " es un numero impar");
+    }
+}
+recogeNum(n);
