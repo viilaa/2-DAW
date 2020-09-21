@@ -58,3 +58,15 @@ if (numero1 < 0) {
 if ((numero1+1) < numero2) {
     console.log("Incrementar en 1 unidad el valor de numero1(" + numero1 + ") no lo hace mayor o igual que numero2(" + numero2 + ")");
 }
+
+
+
+// EJERCICIO 5.
+function factorial(n) {
+    var total = 1;
+    for (i = 1; i <= n; i++) {
+        total = total * i;
+    }
+    return total;
+}
+console.log (factorial(3));
