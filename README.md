@@ -1,1 +1,1 @@
-"Descripciónd el proyecto"
+"Descripción el proyecto"
