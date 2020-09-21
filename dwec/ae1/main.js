@@ -1,7 +1,7 @@
-// EJERCICIO 1 (a, b, c)
+// EJERCICIO 1 (a, b, c).
 console.log("Hola Mundo!");
-var alertMessage= "Soy el primer script";
-var getBrowserInfo = function () {
+const alertMessage= "Soy el primer script";
+const getBrowserInfo = function () {
     var ua = navigator.userAgent, tem,
         M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
     if (/trident/i.test(M[1])) {
@@ -18,7 +18,17 @@ var getBrowserInfo = function () {
 };
 alert(alertMessage + " y estoy funcionando sobre " + getBrowserInfo());
 
-// EJERCICIO 2
-/// a)
 
+
+// EJERCICIO 2.
+const arrayMeses = ["enero ", "febrero ", "marzo ", "abril ", "mayo ", "junio ", "julio ", "agosto ", "septiembre ", "octubre ", "noviembre ", "diciembre "];
+/// a)
+for (let i=0; i<arrayMeses.length; i++){
+    console.log (arrayMeses[i]);
+}
 /// b)
+console.table(arrayMeses);
+
+
+
+// EJERCICIO 3.
