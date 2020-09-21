@@ -36,3 +36,25 @@ const values = [true, false, 5, "hola", [1, 2, 3], { age: 2, gender: 'male' }];
 for (let i = 0; i < values.length; i++) {
     console.log(values[i] + " es " + typeof values[i]);
 }
+
+
+
+// EJERCICIO 4.
+const numero1 = 5;
+const numero2 = 8;
+
+if (numero1 < numero2){
+    console.log("numero1(" + numero1 + ") no es mayor que numero2(" + numero2 +")");
+}
+
+if (numero2 > 0) {
+    console.log("numero2(" + numero2 + ") es positivo");
+}
+
+if (numero1 < 0) {
+    console.log("numero1(" + numero1 + ") es negativo o distinto de cero");
+}
+
+if ((numero1+1) < numero2) {
+    console.log("Incrementar en 1 unidad el valor de numero1(" + numero1 + ") no lo hace mayor o igual que numero2(" + numero2 + ")");
+}
