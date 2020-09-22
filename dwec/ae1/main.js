@@ -85,6 +85,7 @@ function recogeNum(valor){
 recogeNum(n);
 
 
+
 // EJERCICIO 7.
 let y = parseInt(prompt("Introduce numero y sacaremos el valor absoluto"));
 let valorAbs = Math.abs(y);
