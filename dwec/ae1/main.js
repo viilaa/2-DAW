@@ -69,7 +69,7 @@ function factorial(n) {
     }
     return total;
 }
-console.log (factorial(3));
+console.log ("El factorial del 3 es: " + factorial(3));
 
 
 
@@ -89,3 +89,30 @@ recogeNum(n);
 let y = parseInt(prompt("Introduce numero y sacaremos el valor absoluto"));
 let valorAbs = Math.abs(y);
 console.log ("El valor absoluto de " + y + " es " + valorAbs);
+
+
+
+// EJERCICIO 8.
+let numRecogido = parseInt(prompt("Introduce un valor entre 1-12. Veremos si coincide con el valor que salga en la tirada de dados."));
+var valorDado;
+
+pedirNumero();
+function pedirNumero(){
+    do {
+        numRecogido = parseInt(prompt("Introduce otro valor de nuevo entre 1-12."));
+    } while (numRecogido <= 0 || numRecogido >= 13)
+    tiradaDado();
+}
+
+function tiradaDado(){
+    valorDado = parseInt(Math.random() * 12) +1;
+    console.log("En el dado ha salido un: " + valorDado);
+    if (valorDado == numRecogido) {
+        alert("ENHORABUENA!! LA SUERTE ESTA DE TU LADO!!");
+    } else {
+        alert("LO SIENTO... LOS NUMEROS NO COINCIDEN, NO TE DESANIMES, PRUEBA UNA VEZ MÁS!!");
+        pedirNumero();
+    }
+}
+
+
