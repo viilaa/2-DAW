@@ -19,16 +19,17 @@
                 y el año de desarrollo. Tu nombre y el símbolo de copyright deben conformar un enlace al modelo de licencia que quieras para tu documento.</p>
         </article>
     </section>
-    <br><br>
     <section>
-        <center>
-            <img src="https://i2.wp.com/www.almanimal.com/wp-content/uploads/2020/01/huskeys-driving-sled-through-white-snow-60050.jpg?w=1000&ssl=1" alt="imagen" width="300" height="200"><br><br><br>
-            <button class="cambiarImagen">Cambiar imagen</button>
-        </center>
+        <div class="img-button">
+            <img src="https://i2.wp.com/www.almanimal.com/wp-content/uploads/2020/01/huskeys-driving-sled-through-white-snow-60050.jpg?w=1000&ssl=1" alt="imagen" width="300" height="200">
+        </div>
+        <div class="img-button">
+            <button class="button-cambiarImagen">Cambiar imagen</button>
+        </div>
     </section>
 
     <footer>
-        <span id="copyright">&copy; Jaime Vila Orquín - 2020</span>
+        <div class="copyright">&copy; Jaime Vila Orquín - 2020</div>
     </footer>
 </body>
 
