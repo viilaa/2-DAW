@@ -2,7 +2,27 @@
     font-family: sans-serif;
 }
 
-body{
+body {
     background-color: silver;
-    
+}
+
+.cambiarImagen {
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+}
+
+#copyright {
+    margin-top: 50%;
+    margin-bottom: 50%;
 }
