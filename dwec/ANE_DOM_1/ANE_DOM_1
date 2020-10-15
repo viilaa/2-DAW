@@ -29,7 +29,11 @@
     </section>
 
     <footer>
-        <div class="copyright">&copy; Jaime Vila Orquín - 2020</div>
+        <div class="copyright">
+            <a class="link-copyright" href="https://es.unesco.org/open-access/las-licencias-creative-commons#:~:text=Las%20licencias%20Creative%20Commons%20son,por%20los%20derechos%20de%20autor.&text=Toda%20obra%20derivada%20de%20la,licencia%20CC%2DBY%2DSA.">
+                <span>&copy; Jaime Vila Orquín - 2020</span>
+            </a>
+        </div>
     </footer>
 </body>
 
