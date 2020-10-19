@@ -1,0 +1,26 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: sans-serif;
+    /*Al poner este atributo, en este contenedor tenemos que definir que alineado queremos.*/
+    display: flex;
+    /*Al elegir en vertical(columna), este es el eje principal y el eje horizontal (row) sería secundario */
+    flex-direction: row;
+    /* 'vh' es coger el x por ciento(100 en este caso) de la altura visual.*/
+    height: 100vh;
+    /*Alinea DE MANERA HORIZONTAL al centro todos los elementos de dentro del contenedor body*/
+    align-items: center;
+    /*Alinear DE MANERA VERTICAL al final todos los elementos de dentro del contenedor body*/
+    /*"justify-content:flex-start;" viene por defecto si no lo ponemos.*/
+    justify-content: space-around;
+}
+
+p {
+    font-size: 3em;
+}
+
+.app-container {
+    font-size: 12px;
+}
