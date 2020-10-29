@@ -1,0 +1,34 @@
+{
+    "name": "my-project",
+    "version": "0.9.0",
+    "description": "Un proyecto que hace X",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "comandoTest": "echo Hola mundo!!"
+    },
+    "keywords": [
+        "Palabras",
+        "que",
+        "nos",
+        "hagan",
+        "ver",
+        "por",
+        "donde",
+        "van",
+        "los",
+        "tiros",
+        "y",
+        "de",
+        "que",
+        "trata",
+        "el",
+        "proyecto."
+    ],
+    "author": "Jaime Vila",
+    "license": "ISC",
+    "dependencies": {
+        "live-server": "^1.2.1",
+        "lodash": "^4.17.20"
+    }
+}
