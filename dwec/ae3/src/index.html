@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AE3</title>
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+    <script src="assets/js/main.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container-nav">
+
+                <div id="backArrowDiv" class="container-nav-backArrow">
+                    <span onclick="atrasAPaso1()" id="backArrowButton" style='font-size:40px;' hidden>&#8678; Atrás</span>
+                </div>
+
+                <div class="container-nav-Title">
+                    <h1>AE3</h1>
+                </div>
+
+                <div id="nextArrowDiv" class="container-nav-nextArrow">
+                    <span onclick="siguiente()" id="nextArrowButton" style='font-size:40px;'>Siguiente &#8680;</span>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <div id="paso1" class="paso1">
+        <div class="textIntro">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellendus natus incidunt. Explicabo molestiae, sint, voluptates magnam deserunt eligendi ullam molestias commodi modi eveniet voluptatibus nesciunt ex laudantium reiciendis
+                ducimus!
+            </p>
+        </div>
+        <div class="callUrl">
+            <form action="" method="post">
+                URL: <input type="url" name="CallBackUrl" id="url" value="">
+            </form>
+        </div>
+    </div>
+
+    <div id="paso2" class="paso2" hidden>
+        <form action="#" method="POST">
+            <p>Nombre: <span class="asterisco">*</span></p>
+            <input id="nombre" type="text" name="dataForm">
+
+            <p>Apellidos: <span class="asterisco">*</span></p>
+            <input id="apellidos" type="text" name="dataForm">
+
+            <p>Fecha de nacimiento: <span class="asterisco">*</span></p>
+            <input id="f_nacimiento" type="date" name="dataForm">
+
+            <p>Direccion: </p>
+            <input id="direccion" type="text" name="dataFormOptional">
+
+            <p>Codigo postal: <span class="asterisco">*</span></p>
+            <input id="codigoPostal" type="number" name="dataForm" maxlength="5">
+
+            <p>Provincia: <span class="asterisco">*</span></p>
+            <select id="provincia" name="dataForm">
+                <option value=""></option><option value="VLC">Valencia</option>
+                <option value="CAS">Castellon</option>
+                <option value="ALC">Alicante</option>            
+            </select>
+
+            <p>Municipio: <span class="asterisco">*</span></p>
+            <input id="municipio" type="text" name="dataForm" style="text-transform: uppercase;">
+        </form>
+    </div>
+
+    <div id="paso3" class="paso3" hidden>
+        <div id="container-datos">
+            <p><span class="ref">Nombre: </span><span id="nombre_v"></span></p>
+            <p><span class="ref">Apellidos: </span><span id="apellidos_v"></span></p>
+            <p><span class="ref">Fecha de Nacimiento: </span><span id="f_nacimiento_v"></span></p>
+            <p><span class="ref">Codigo Postal: </span><span id="codigoPostal_v"></span></p>
+            <p><span class="ref">Dirección: </span><span id="direccion_v"></span></p>
+            <p><span class="ref">Provincia: </span><span id="provincia_v"></span></p>
+            <p><span class="ref">Municipio: </span><span id="municipio_v"></span></p>
+        </div>
+    </div>
+
+    <div id="paso4" class="paso4" hidden>
+        <input id="end-button" type="button" value="Terminar">
+    </div>
+
+</body>
+
+</html>

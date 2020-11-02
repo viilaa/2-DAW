@@ -1,0 +1,19 @@
+{
+    "name": "ae3",
+    "version": "0.0.1",
+    "description": "Actividad evaluable",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/viilaa/2-DAW.git"
+    },
+    "author": "Jaime Vila",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/viilaa/2-DAW/issues"
+    },
+    "homepage": "https://github.com/viilaa/2-DAW#readme"
+}
