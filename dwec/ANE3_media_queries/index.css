@@ -14,8 +14,24 @@ body {
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
+    html {
+        background-color: gray;
+    }
     body {
-        background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    p {
+        font-size: 20px;
+    }
+    span {
+        font-size: 20px;
+    }
+    .div-button {
+        border-radius: 0px;
+        padding: 2em;
+        background-color: green;
     }
 }
