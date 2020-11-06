@@ -6,12 +6,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 100%;
 }
 
 @media screen and (max-width: 640px) {
@@ -42,5 +44,23 @@ body {
     }
     .div-button:hover {
         cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: 100%;
+    }
+    body+.capa {
+        height: 50%;
+    }
+    .capa {
+        display: flex;
+        background-color: black;
+        color: white;
+        height: 25%;
     }
 }
