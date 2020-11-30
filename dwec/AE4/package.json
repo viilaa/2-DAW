@@ -1,15 +1,14 @@
 {
-  "name": "ae4",
-  "version": "0.1.0",
-  "description": "Actividad evaluable 4",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Jaime Vila Orquín",
-  "license": "ISC",
-  "dependencies": {
-    "chartist": "^0.11.4",
-    "lodash.merge": "^4.6.2"
-  }
+    "name": "ae4",
+    "version": "0.1.0",
+    "description": "Actividad evaluable 4",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Jaime Vila Orquín",
+    "license": "ISC",
+    "dependencies": {
+        "lodash.merge": "^4.6.2"
+    }
 }
