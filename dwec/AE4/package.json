@@ -1,0 +1,11 @@
+{
+  "name": "ae4",
+  "version": "0.1.0",
+  "description": "Actividad evaluable 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaime Vila Orquín",
+  "license": "ISC"
+}
