@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
             labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
             datasets: [{
                     label: 'Temperaturas',
-                    borderColor: 'rgb(255, 99, 112)',
+                    borderColor: 'rgb(0, 92, 128)',
                     data: [],
                     type: 'line',
                     order: 2
@@ -17,14 +17,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 {
                     label: 'Lluvias',
                     data: [],
-                    backgroundColor: 'rgb(78, 122, 155)',
+                    backgroundColor: 'rgb(178, 34, 34)',
+                    borderColor: '2px solid rgb(0, 0, 0)',
                     order: 1
                 },
             ],
         },
 
         // Configuration options go here
-        options: {}
+        options: { responsive: false }
     });
 
     function checkingDataInputs(inputMeses, inputTemp, inputLluvia) {

@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .page-container {
     display: flex;
     flex-direction: column;
@@ -21,6 +25,18 @@ h1 {
     margin-right: 10px;
     margin-top: 10px;
     text-align: right;
+    font-weight: bolder;
+}
+
+.inputs_labels-container input {
+    text-align: left;
+}
+
+form {
+    background-color: rgb(178, 34, 34);
+    border: black solid 5px;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 .inputs_labels-container label::placeholder,
@@ -32,6 +48,11 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+.button-container input {
+    border: black solid 2px;
+    background-color: rgb(92, 92, 92);
 }
 
 #grafica {
