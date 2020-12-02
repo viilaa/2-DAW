@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AE4 - Index</title>
+    <link rel="stylesheet" href="assets/css/index.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </head>
 
 <body>
-    <canvas id="miGrafica"></canvas>
+    <div class="page-container">
+        <h1>AEV4 - Gráfica Tiempo</h1>
+        <form action="" method="POST">
+            <div class="inputs_labels-container">
+                <label for="meses">Meses:</label>
+                <input type="text" size="20" id="meses" placeholder="Enero=1, Febrero=2...">
+            </div>
+            <div class="inputs_labels-container">
+                <label for="lluvias">Lluvias:</label>
+                <input type="text" id="lluvias" size="20" placeholder="40mm3=40, 60mm3=60...">
+            </div>
+            <div class="inputs_labels-container">
+                <label for="temperatura">Temperaturas:</label>
+                <input type="text" id="temperatura" size="20" placeholder="3ºC=3, 4ºC=4...">
+            </div>
+            <div class="button-container">
+                <input type="button" id="Actualizar_Button" value="Mostrar Gráfica">
+            </div>
+        </form>
+    </div>
+    <div id="grafica">
+        <canvas id="myFirstChart" width="70px" height="50px"></canvas>
+    </div>
+
 </body>
 
 </html>
